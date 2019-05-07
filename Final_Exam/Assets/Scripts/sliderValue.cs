@@ -10,9 +10,12 @@ public class sliderValue : MonoBehaviour
 
     public Text slideText;
 
+   public Text valueText;
+
     void Start()
     {
         slideText.text = "";
+        
     }
 
     //Invoked when a submit button is clicked.
@@ -25,5 +28,12 @@ public class sliderValue : MonoBehaviour
     void Update()
     {
         slideText.text = sValue.ToString("F2");
+    }
+
+    void valueEquals()
+    {
+         
+         valueText.text = "";
+        valueText.text = sValue.ToString("F2");
     }
 }

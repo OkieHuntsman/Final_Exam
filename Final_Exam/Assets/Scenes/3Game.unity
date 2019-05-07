@@ -202,6 +202,7 @@ GameObject:
   - component: {fileID: 44883746}
   - component: {fileID: 44883748}
   - component: {fileID: 44883747}
+  - component: {fileID: 44883749}
   m_Layer: 5
   m_Name: Speed
   m_TagString: Untagged
@@ -270,6 +271,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 44883745}
   m_CullTransparentMesh: 0
+--- !u!114 &44883749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44883745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 025818b7e7cff974bab46ea70984d56c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainSlider: {fileID: 5556902077697373984, guid: df5585f405f06e642888e0683d4bac36,
+    type: 3}
+  sValue: 0
+  slideText: {fileID: 44883747}
+  valueText: {fileID: 0}
 --- !u!1 &240187951
 GameObject:
   m_ObjectHideFlags: 0
